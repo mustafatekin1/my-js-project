@@ -1,0 +1,45 @@
+console.clear();
+//There are 5 data types:
+/* primitive data types: string, number, boolean, null, undefined
+- number: includes all numbers
+non-primitive data types: object, array
+
+*/
+
+var myName = 'Java Script'; // String
+console.log(typeof myName); // we use typeof to learn the data type of the variable
+
+var myNum = 39
+console.log("The data type of " +myNum + " is " + typeof myNum)
+
+var myNum = 39/0;
+console.log(myNum);// gives the value of result infinite
+console.log(typeof myNum); //stil the data type is number 
+                    //since we assigned a number regardless of the result.
+var myNumUndefined;
+console.log(myNumUndefined);//undefined: since we haven't assigned anything
+
+var num2 = 20+'a'; // num2 becomes a string because string dominates
+console.log(typeof num2);
+
+var isExist = true;
+console.log(isExist)
+console.log(typeof isExist)
+
+var isExist = false;
+console.log(isExist)
+console.log(typeof isExist)
+
+//null: ex: object having null value
+var car = null;
+console.log(car);// null
+console.log(typeof car);// object
+
+// undefined
+var selected = undefined
+console.log(selected);// undefined
+console.log(typeof selected);//undefined
+//or
+var selected;
+console.log(selected);// undefined
+console.log(typeof selected);//undefined
